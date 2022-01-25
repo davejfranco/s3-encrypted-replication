@@ -53,7 +53,7 @@ resource "aws_s3_bucket" "destination" {
   }
 }
 
-## IAM Rreplication
+
 data "aws_iam_policy_document" "s3_assume_policy" {
   statement {
     effect  = "Allow"

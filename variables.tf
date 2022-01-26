@@ -7,7 +7,7 @@ variable "dest_region" {
   type        = string
 }
 
-variable "kms_delete_windows" {
+variable "kms_delete_window" {
   description = "kms key deletion window in days"
   type        = number
   default     = 30
